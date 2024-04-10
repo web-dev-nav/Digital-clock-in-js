@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('digital-reg.ttf') format('truetype') 
+  }
+  
+html{
+    background-color: #f3f4f6;
+}
+body {
+    border-top:8px solid #78C0A8 ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 9px 10px 7px -3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 0 2em 1em;
+    margin-top: 100px;
+}
+h1 {
+    color: rgb(118, 118, 120);
+    text-align: center;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+fieldset {
+    margin-bottom: 1em;
+    color: rgb(159, 159, 159);
+    border-radius: 8px;
+}
+#seconds {
+    margin-right: 0.5em;
+}
+legend{
+    text-transform: uppercase; 
+}
+
+span{
+    font-family: 'MyFont', sans-serif;
+    color: rgb(155, 155, 155);
+}
+
+blockquote{
+    font-size: 12px;
+    padding: 5PX;
+    border-left:8px solid #78C0A8 ;
+    font-family:Open Sans;
+    font-style:italic;text-align: center;
+    color: #555555;
+    background:#EDEDED;
+  }
+
+  .button {
+    background-color: #2196f3;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    float: right;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
